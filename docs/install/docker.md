@@ -26,6 +26,8 @@ services:
       - env
     volumes:
       - ./data:/data
+    port:
+      - "3000:3000"
 ```
 
 A `env` file is needed where all of the environmental variables are defined.
